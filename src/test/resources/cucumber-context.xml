@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <import resource="classpath:spring/application-context.xml"/>
+    <!--bean id="LoginPage" class="pages.LoginPage"/-->
+    <!--bean id = "ChemistryAutomationSandboxPage" class="pages.ChemistryAutomationSandboxPage"/>
+    <bean id = "TestFramePage" class="pages.FirstTestFramePage"/-->
+    <!--bean id="Pagination" class="pages.sections.Pagination"/-->
+    <!--bean class="pages.LoginPage" /-->
+    <bean id="MainPage" class="pages.MainPage"/>
+    <bean id="Registration" class="pages.categories.Registration"/>
+    <bean id="Draggable" class="pages.categories.Draggable"/>
+    <bean id="Selectable" class="pages.categories.Selectable"/>
+    <bean id="Resizable" class="pages.categories.Resizable"/>
+    <bean id="Droppable" class="pages.categories.Droppable"/>
+    <bean id="Autocomplete" class="pages.categories.Autocomplete"/>
+    <bean id="Sortable" class="pages.categories.Sortable"/>
+    <bean id="Menu" class="pages.categories.Menu"/>
+    <bean id="Accordion" class="pages.categories.Accordion"/>
+</beans>

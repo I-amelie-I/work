@@ -1,0 +1,16 @@
+<ARPConfiguration>
+  <url>http://demoqa.com/</url>
+  <backdoor>False</backdoor>
+  <login>test_admin</login>
+  <password>parexel</password>
+  <profile>QA EDC</profile>
+  <browser>ch</browser>
+  <targetTestCycle>testCycle</targetTestCycle>
+  <task>0</task>
+  <projectKey>00C835AD-EE6B-47BF-B45E-526ADF008165</projectKey>
+</ARPConfiguration>
+
+<!--
+
+http://kryzhanovskiy:8080/mi-platform/login
+-->
